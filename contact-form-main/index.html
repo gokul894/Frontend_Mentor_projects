@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <!-- mycode is starting from here -->
+
+  <div class="container">
+
+    <form name="form-Login" action="#" id="form">
+      <div class="title">
+        <h1>Contact Us</h1>
+      </div>
+  
+      <div class="name-section">
+        <div class="i1 success">
+          <label for="fname">First Name *</label>
+          <input type="text" id="fname" name="firstname">
+          <div class="error"></div>
+        </div>
+        <div class="i2">
+          <label for="lname">Last Name *</label>
+          <input type="text" id="lname" name="lastname">
+          <div class="error"></div>
+        </div>
+      </div>
+
+
+      <div class="mail-section">
+        <label for="mail">Email Address *</label>
+        <input type="email" name="email" id="email">
+        <div class="error"></div>
+      </div>
+  
+  
+      <div class="query-section">
+        <p>Query Type *</p>
+
+        <div class="query">
+
+          <div class="q1">
+            <input type="radio" name="Mquery" id="q1-id" class="q">
+            <label for="q1-id">General Enquiry</label>
+          </div>
+
+          <div class="q2">
+            <input type="radio" name="Mquery" id="q2-id" class="q">
+            <label for="q2-id">Support Request</label>
+          </div>
+        </div>
+        <div class="error"></div>
+      </div>
+  
+      <div class="text-section">
+        <label for="msg">Message *</label>
+        <textarea name="msg" id="msg"></textarea>
+        <div class="error"></div>
+      </div>
+
+      <div class="survey">
+        <input type="checkbox" id="consent-checker">
+        <label for="chkbx">I consent to being contacted by the team *</label>
+        <div class="error"></div>
+      </div>
+  
+      <button type="submit">Submit</button>
+  
+    </form>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+      Coded by <a href="#">Gokul kumar</a>.
+    </div>
+  </div>
+
+  <!-- mycode end -->
+
+  <script src="script.js"></script>
+</body>
+</html>
